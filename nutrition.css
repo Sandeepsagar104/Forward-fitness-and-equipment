@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Francois One', sans-serif;
+    color: #222;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Container */
+#container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navigation */
+.mobile-nav {
+    display: none;
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav.tablet-desktop ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav.tablet-desktop ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav.tablet-desktop ul li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+/* Header */
+#ffc-logo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#hero img {
+    border-radius: 10px;
+}
+
+/* Main Content */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+article, aside {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.round {
+    border-radius: 10px;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+.social img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tablet-desktop {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+}
