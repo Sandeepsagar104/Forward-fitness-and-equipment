@@ -58,6 +58,8 @@ nav.tablet-desktop ul li a {
 #ffc-logo {
     text-align: center;
     padding: 20px 0;
+        transform: rotate(270deg);
+
 }
 
 /* Sections */
