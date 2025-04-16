@@ -41,6 +41,7 @@ nav.tablet-desktop ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    
 }
 
 nav.tablet-desktop ul li {
@@ -79,9 +80,16 @@ ul {
     padding-left: 20px;
 }
 
-ul.tablet-desktop li {
+.tablet-desktop ul {
     font-weight: bold;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+
 }
+
 
 /* Footer */
 footer {
