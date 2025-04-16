@@ -38,11 +38,12 @@ img {
 }
 
 nav.tablet-desktop ul {
+   font-weight: bold;
     list-style: none;
-    padding: 0;
-    text-align: center;
     display: flex;
     gap: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 nav.tablet-desktop ul li {
